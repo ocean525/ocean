@@ -1,1 +1,2 @@
-    import numpy
+import numpy as np
+np.append
