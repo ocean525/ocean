@@ -1,7 +1,7 @@
 # 注释
 # 1 定义整数，实数，字符串，数组，矩阵
 your_name="qinjx" #readonly your_name
-num='2'
+num='2'             #int($num)
 echo $your_name
 echo ${your_name}
 unset variable_name
@@ -39,7 +39,7 @@ string="runoob is a great site"
 echo ${string:1:4} # 输出 unoo
 
 # 3 特别类型
-
+| 管道命令，$0是前一个命令传输过来的
 
 # 4 循环
 for var in item1 item2 ... itemN; do command1; command2… done;
