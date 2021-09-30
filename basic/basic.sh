@@ -93,7 +93,7 @@ if [ $(ps -ef | grep -c "ssh") -gt 1 ]; then echo "true"; fi
 #
 a=10
 b=20
-if [ $a == $b ]
+if [ $a == $b ]          [后面的空格是必须的
 then
    echo "a 等于 b"
 elif [ $a -gt $b ]
