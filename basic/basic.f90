@@ -11,6 +11,11 @@ real, dimension (10, 10) :: a,b,c
 character(len=20) :: c
 logical switch
 
+! real转integer
+int(__)
+real()
+char()
+
 
 u=0. !初始化
 
